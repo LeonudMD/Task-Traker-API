@@ -1,1 +1,9 @@
-spring.application.name=Task-traker-api
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/Task-Traker-API
+    username: root
+    password: 123
+    driver-class-name: org.postgresql.Driver
